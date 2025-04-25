@@ -1,0 +1,22 @@
+:root {
+	--color-light: #ebf2fa;
+	--color-dark: #003049;
+	--color-red: #ff0054;
+	--color-yellow: #e9c46a;
+	--color-green: #2a9d8f;
+}
+
+html { height: 100vh; }
+
+body {
+	background-color: var(--color-light);
+	color: var(--color-dark);
+	font: normal normal 175%/1.65rem 'Fira Sans', 'Open Sans', sans-serif;
+}
+
+.box {
+	margin: 3rem 0;
+	max-width: 720px;
+	min-height: 420px;
+	background-color: var(--color-red);
+}
